@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: flask-micro
+  description: test description
+  annotations:
+    github.com/project-slug: /
+spec:
+  type: service
+  owner: team-a
+  lifecycle: experimental
